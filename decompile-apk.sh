@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 arg=$1
 
@@ -19,15 +19,15 @@ function input() {
 	case $input in
 		1)
 		## 执行jdgui-apk命令
-		sh jdgui-apk.sh $arg
+		bash jdgui-apk.sh $arg
 		;;
 		2)
 		## 执行classyshark-apk命令
-		sh classyshark-apk.sh $arg
+		bash classyshark-apk.sh $arg
 		;;
 		3)
 		## 执行jadx-apk命令
-		sh jadx-apk.sh $arg
+		bash jadx-apk.sh $arg
 		;;
 		q)
 		## 退出命令
